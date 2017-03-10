@@ -1,0 +1,232 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://qconsulting.ca/fo3/ModConfig5.0.xsd">
+  <moduleName>Immersive Citizens - AI Overhaul</moduleName>
+    <installSteps order="Explicit">
+      <installStep name="First Screen">
+        <optionalFileGroups order="Explicit">
+          <group name="Install Options" type="SelectAny">
+            <plugins order="Explicit">
+              <plugin name="Core">
+                <description>
+					<![CDATA[This will install "Immersive Citizens - AI Overhaul".]]>
+                </description>
+                  <image path="Fomod\Images\01_FirstScreen\ICAIO.png"/>
+                <conditionFlags>
+                  <flag name="MainOpt">On</flag>
+                </conditionFlags>
+                  <typeDescriptor>
+                    <dependencyType>
+                      <defaultType name="NotUsable"/>
+                        <patterns>
+                          <pattern>
+                            <dependencies operator="Or">
+                              <fileDependency file="Dawnguard.esm" state="Inactive"/>
+                              <fileDependency file="Dawnguard.esm" state="Active"/>
+                              <fileDependency file="Dragonborn.esm" state="Inactive"/>
+                              <fileDependency file="Dragonborn.esm" state="Active"/>
+                            </dependencies>
+                              <type name="Recommended"/>
+                          </pattern>
+                        </patterns>
+                    </dependencyType>
+                  </typeDescriptor>
+              </plugin>
+            </plugins>
+          </group>
+
+          <group name="Open Cities Skyrim" type="SelectAny">
+            <plugins order="Explicit">
+              <plugin name="Patch for Open Cities Skyrim.esp">
+                <description>
+                  	<![CDATA[Checking this box will install the compatibility patch for Open Cities Skyrim. [Nexus ID: 281]]]>
+                </description>
+                  <image path="Fomod\Images\01_FirstScreen\ICAIO.png"/>
+                <conditionFlags>
+                  <flag name="OCSOpt">On</flag>
+                </conditionFlags>
+                  <typeDescriptor>
+                    <dependencyType>
+                      <defaultType name="Optional"/>
+                        <patterns>
+                          <pattern>
+                            <dependencies operator="Or">
+                              <fileDependency file="Open Cities Skyrim.esp" state="Inactive"/>
+                              <fileDependency file="Open Cities Skyrim.esp" state="Active"/>
+                            </dependencies>
+                              <type name="Recommended"/>
+                          </pattern>
+                        </patterns>
+                    </dependencyType>
+                  </typeDescriptor>
+              </plugin>
+            </plugins>
+          </group>
+		  
+         <group name="Enhanced Lights and FX" type="SelectAtMostOne">
+            <plugins order="Explicit">
+              <plugin name="Patch for ELFXEnhancer.esp">
+                <description>
+					<![CDATA[Checking this box will install the compatibility patch for ELFXEnhancer.esp (an optional plugin from Enhanced Lights and FX). [Nexus ID: 2424]]]>
+                </description>
+                  <image path="Fomod\Images\01_FirstScreen\ICAIO.png"/>
+                <conditionFlags>
+                  <flag name="ELFX1Opt">On</flag>
+                </conditionFlags>
+                  <typeDescriptor>
+                    <dependencyType>
+                      <defaultType name="Optional"/>
+                        <patterns>
+                          <pattern>
+                            <dependencies operator="Or">
+                              <fileDependency file="ELFXEnhancer.esp" state="Inactive"/>
+                              <fileDependency file="ELFXEnhancer.esp" state="Active"/>
+                            </dependencies>
+                              <type name="Recommended"/>
+                          </pattern>
+                        </patterns>
+                    </dependencyType>
+                  </typeDescriptor>
+              </plugin>
+			  <plugin name="Patch for ELFX - Hardcore.esp">
+                <description>
+					<![CDATA[Checking this box will install the compatibility patch for ELFX - Hardcore.esp (an optional plugin from Enhanced Lights and FX). [Nexus ID: 2424]]]>
+                </description>
+                  <image path="Fomod\Images\01_FirstScreen\ICAIO.png"/>
+                <conditionFlags>
+                  <flag name="ELFX2Opt">On</flag>
+                </conditionFlags>
+                  <typeDescriptor>
+                    <dependencyType>
+                      <defaultType name="Optional"/>
+                        <patterns>
+                          <pattern>
+                            <dependencies operator="Or">
+                              <fileDependency file="ELFX - Hardcore.esp" state="Inactive"/>
+                              <fileDependency file="ELFX - Hardcore.esp" state="Active"/>
+                            </dependencies>
+                              <type name="Recommended"/>
+                          </pattern>
+                        </patterns>
+                    </dependencyType>
+                  </typeDescriptor>
+              </plugin>
+            </plugins>
+          </group>
+		  
+		 <group name="Enhanced Lighting for ENB" type="SelectAny">
+            <plugins order="Explicit">
+              <plugin name="Patch for ELE_SSE.esp">
+                <description>
+                  <![CDATA[Checking this box will install a compatibility patch for ELE. [Nexus ID: 1377]]]>
+                </description>
+                  <image path="Fomod\Images\01_FirstScreen\ICAIO.png"/>
+                <conditionFlags>
+                  <flag name="ELESOpt">On</flag>
+                </conditionFlags>
+                  <typeDescriptor>
+                    <dependencyType>
+                      <defaultType name="Optional"/>
+                        <patterns>
+                          <pattern>
+                            <dependencies operator="Or">
+                              <fileDependency file="ELE_SSE.esp" state="Inactive"/>
+                              <fileDependency file="ELE_SSE.esp" state="Active"/>
+                            </dependencies>
+                              <type name="Recommended"/>
+                          </pattern>
+                        </patterns>
+                    </dependencyType>
+                  </typeDescriptor>
+              </plugin>
+            </plugins>
+          </group>
+		  
+		  <group name="RLO - Major City Interiors" type="SelectAny">
+            <plugins order="Explicit">
+              <plugin name="Patch for Realistic Lighting Overhaul - Major City Interiors.esp">
+                <description>
+                  <![CDATA[Checking this box will install a compatibility patch for the plugin Realistic Lighting Overhaul - Major City Interiors. [Nexus ID: 844]]]>
+                </description>
+                  <image path="Fomod\Images\01_FirstScreen\ICAIO.png"/>
+                <conditionFlags>
+                  <flag name="RLOOpt">On</flag>
+                </conditionFlags>
+                  <typeDescriptor>
+                    <dependencyType>
+                      <defaultType name="Optional"/>
+                        <patterns>
+                          <pattern>
+                            <dependencies operator="Or">
+                              <fileDependency file="Realistic Lighting Overhaul - Major City Interiors.esp" state="Inactive"/>
+                              <fileDependency file="Realistic Lighting Overhaul - Major City Interiors.esp" state="Active"/>
+                            </dependencies>
+                              <type name="Recommended"/>
+                          </pattern>
+                        </patterns>
+                    </dependencyType>
+                  </typeDescriptor>
+              </plugin>
+            </plugins>
+          </group>
+        </optionalFileGroups>
+      </installStep>
+  </installSteps>
+
+  <conditionalFileInstalls>
+    <patterns>
+      <pattern>
+        <dependencies>
+          <flagDependency flag="MainOpt" value="On"/>
+        </dependencies>
+          <files>
+            <folder source="10_Main_Full_Version" destination="" priority="1"/>
+          </files>
+      </pattern>
+
+  
+      <pattern>
+        <dependencies>
+          <flagDependency flag="OCSOpt" value="On"/>
+        </dependencies>
+          <files>
+            <folder source="50_Open_Cities_Skyrim" destination="" priority="1"/>
+          </files>
+      </pattern>
+	  
+      <pattern>
+        <dependencies>
+          <flagDependency flag="ELFX1Opt" value="On"/>
+        </dependencies>
+          <files>
+            <folder source="40_ELFX_Enhancer" destination="" priority="1"/>
+          </files>
+      </pattern>
+
+	  <pattern>
+        <dependencies>
+          <flagDependency flag="ELFX2Opt" value="On"/>
+        </dependencies>
+          <files>
+            <folder source="41_ELFX_Hardcore" destination="" priority="1"/>
+          </files>
+      </pattern>
+	  
+	  <pattern>
+        <dependencies>
+          <flagDependency flag="ELESOpt" value="On"/>
+        </dependencies>
+          <files>
+            <folder source="30_ELE" destination="" priority="1"/>
+          </files>
+      </pattern>
+	  
+	  <pattern>
+        <dependencies>
+          <flagDependency flag="RLOOpt" value="On"/>
+        </dependencies>
+          <files>
+            <folder source="20_RLO_MajorCityInteriors" destination="" priority="1"/>
+          </files>
+      </pattern>
+	</patterns>
+  </conditionalFileInstalls>
+</config>
