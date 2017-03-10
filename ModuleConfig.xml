@@ -227,6 +227,6 @@
             <folder source="20_RLO_MajorCityInteriors" destination="" priority="1"/>
           </files>
       </pattern>
-	</patterns>
+    </patterns>
   </conditionalFileInstalls>
 </config>
