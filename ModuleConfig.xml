@@ -7,7 +7,7 @@
             <plugins order="Explicit">
               <plugin name="Core">
                 <description>
-					<![CDATA[This will install "Immersive Citizens - AI Overhaul".]]>
+                  <![CDATA[This will install "Immersive Citizens - AI Overhaul".]]>
                 </description>
                   <image path="Fomod\Images\01_FirstScreen\ICAIO.png"/>
                 <conditionFlags>
@@ -37,7 +37,7 @@
             <plugins order="Explicit">
               <plugin name="Patch for Open Cities Skyrim.esp">
                 <description>
-                  	<![CDATA[Checking this box will install the compatibility patch for Open Cities Skyrim. [Nexus ID: 281]]]>
+                  <![CDATA[Checking this box will install the compatibility patch for Open Cities Skyrim. [Nexus ID: 281]]]>
                 </description>
                   <image path="Fomod\Images\01_FirstScreen\ICAIO.png"/>
                 <conditionFlags>
@@ -60,12 +60,12 @@
               </plugin>
             </plugins>
           </group>
-		  
+
          <group name="Enhanced Lights and FX" type="SelectAtMostOne">
             <plugins order="Explicit">
               <plugin name="Patch for ELFXEnhancer.esp">
                 <description>
-					<![CDATA[Checking this box will install the compatibility patch for ELFXEnhancer.esp (an optional plugin from Enhanced Lights and FX). [Nexus ID: 2424]]]>
+                  <![CDATA[Checking this box will install the compatibility patch for ELFXEnhancer.esp (an optional plugin from Enhanced Lights and FX). [Nexus ID: 2424]]]>
                 </description>
                   <image path="Fomod\Images\01_FirstScreen\ICAIO.png"/>
                 <conditionFlags>
@@ -86,9 +86,9 @@
                     </dependencyType>
                   </typeDescriptor>
               </plugin>
-			  <plugin name="Patch for ELFX - Hardcore.esp">
+              <plugin name="Patch for ELFX - Hardcore.esp">
                 <description>
-					<![CDATA[Checking this box will install the compatibility patch for ELFX - Hardcore.esp (an optional plugin from Enhanced Lights and FX). [Nexus ID: 2424]]]>
+                  <![CDATA[Checking this box will install the compatibility patch for ELFX - Hardcore.esp (an optional plugin from Enhanced Lights and FX). [Nexus ID: 2424]]]>
                 </description>
                   <image path="Fomod\Images\01_FirstScreen\ICAIO.png"/>
                 <conditionFlags>
@@ -111,8 +111,8 @@
               </plugin>
             </plugins>
           </group>
-		  
-		 <group name="Enhanced Lighting for ENB" type="SelectAny">
+
+         <group name="Enhanced Lighting for ENB" type="SelectAny">
             <plugins order="Explicit">
               <plugin name="Patch for ELE_SSE.esp">
                 <description>
@@ -139,8 +139,8 @@
               </plugin>
             </plugins>
           </group>
-		  
-		  <group name="RLO - Major City Interiors" type="SelectAny">
+
+         <group name="RLO - Major City Interiors" type="SelectAny">
             <plugins order="Explicit">
               <plugin name="Patch for Realistic Lighting Overhaul - Major City Interiors.esp">
                 <description>
