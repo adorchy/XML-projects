@@ -191,7 +191,7 @@
             <folder source="50_Open_Cities_Skyrim" destination="" priority="1"/>
           </files>
       </pattern>
-	  
+
       <pattern>
         <dependencies>
           <flagDependency flag="ELFX1Opt" value="On"/>
@@ -201,7 +201,7 @@
           </files>
       </pattern>
 
-	  <pattern>
+      <pattern>
         <dependencies>
           <flagDependency flag="ELFX2Opt" value="On"/>
         </dependencies>
@@ -209,8 +209,8 @@
             <folder source="41_ELFX_Hardcore" destination="" priority="1"/>
           </files>
       </pattern>
-	  
-	  <pattern>
+
+      <pattern>
         <dependencies>
           <flagDependency flag="ELESOpt" value="On"/>
         </dependencies>
@@ -218,8 +218,8 @@
             <folder source="30_ELE" destination="" priority="1"/>
           </files>
       </pattern>
-	  
-	  <pattern>
+
+      <pattern>
         <dependencies>
           <flagDependency flag="RLOOpt" value="On"/>
         </dependencies>
